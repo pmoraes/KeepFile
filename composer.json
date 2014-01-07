@@ -1,0 +1,16 @@
+{
+    "name": "sales2go/keep-file",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "Keep", "upload", "file", "KeepFile"],
+    "description": "See http://www.github.com/pmoraes/KeepFile",
+    "license": "UNLICENSE",
+    "authors": [
+        {
+            "name": "Peter Veiga Moraes",
+            "email": "peter.veiga.moraes@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "*"
+    }
+}
