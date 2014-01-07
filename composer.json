@@ -1,5 +1,5 @@
 {
-    "name": "sales2go/keep-file",
+    "name": "keep-file",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "Keep", "upload", "file", "KeepFile"],
     "description": "See http://www.github.com/pmoraes/KeepFile",
