@@ -35,6 +35,7 @@ class FileWrapper
 				$this->request->data[$model][$field] = CakeSession::read('files.'.$model.'.'.$field);
 			}
 		}
+
 		return $files;
 	}
 
@@ -74,13 +75,10 @@ class FileWrapper
 		}
 	}
 
-
 	public function clearSessionAndFolder() 
 	{
 		if ($this->request->is('get')) {
 			$this->deleteFilesAndClearSession();
 		}
 	}
-
-	
 }
